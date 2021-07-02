@@ -1,0 +1,51 @@
+
+
+/* Init of Get in Touch footer */
+.getInTouch__footer{   
+    padding: 10%; 
+    font-family:'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.getInTouch__footer--info{    
+    width: 200px;
+}
+
+.getInTouch__footer--info-title{
+    font-size: 24px;
+    color:#252B42;
+    font-weight: bold;
+}
+
+.getInTouch__footer--info-content{
+    font-size: 14px;
+    margin: 20px 0 10px 0px;
+    color:#737373;
+}
+
+.getInTouch__footer--info-media{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.getInTouch__footer--info-media img{
+    margin-right: 10px;
+    width: 23px;
+    height: 23px;
+}
+
+.getInTouch__footer--madeWithLove{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-top: 105px;
+   font-family:'Montserrat', sans-serif;
+}
+
+.getInTouch__footer--madeWithLove p{
+    font-size: 14px;
+    color: #737373;
+}
