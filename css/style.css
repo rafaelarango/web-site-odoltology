@@ -1,3 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+/* Init of LeadingMedicine Section */
+.leadingMedicine{
+    padding: 98px 30px 98px 30px;
+}
+
+.leadingMedicine__title, .leadingMedicine__description{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.leadingMedicine__title{
+    color: #252B42;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px
+}
+
+.leadingMedicine__description{
+    color:#737373;
+    font-size: 14px;
+    padding: 0 25% 0 25%;
+}
+
+.leadingMedicine__customers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 7%;   
+}
+
+.leadingMedicine__customers--card{
+    width: 320px;    
+    border: 1.5px solid #DEDEDE;
+    padding: 30px 35px 30px 35px;
+}
+
+.leadingMedicine__customers--score{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.leadingMedicine__customers--score img{
+    margin-left: 5px;
+}
+
+.leadingMedicine__customers--opinion{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #737373;
+}
+
+.leadingMedicine__customers--avatar{
+    margin-top: 20px;
+}
+
+.leadingMedicine__customers--avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+/* End of LeadingMedicine Section */
 /* Modulo 2: Andres */
 
 .modulo-2 {
