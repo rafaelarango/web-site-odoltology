@@ -67,3 +67,66 @@
     border-radius: 50%;
 }
 /* End of LeadingMedicine Section */
+/* Modulo 2: Andres */
+
+.modulo-2 {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.modulo-2-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.modulo-2-box {
+    border: 1px #8ec2f2 solid;
+    border-radius: 7px;
+    margin: 0;
+    margin-top: 25px;
+  }
+
+.modulo-2-box__top {
+  display: flex;
+  flex-direction: row;
+  background-color: #8ec2f2;
+  border-radius: 7px;
+  color: #fff;
+  margin: 0;
+  padding: 40px;
+}
+
+.modulo-2-box__top button {
+  padding: 25px;
+  border: #fff;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.modulo-2-box__top h2 {
+  margin-left: 20px;
+}
+
+.modulo-2-box__theme {
+  padding: 10px 80px 10px 25px;
+}
+
+.modulo-2-box__theme p {
+  margin-left: 40px;
+  color: #23a6f0;
+  font-weight: bold;
+}
+.modulo-2-box__theme ul {
+  color: #737373;
+}
+
+.modulo-2-box ul {
+  list-style: none;
+}
+
+/* Modulo 2: Andres END */
